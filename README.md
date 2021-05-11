@@ -18,12 +18,15 @@ The project contains a publisher and a subscriber class which two different spee
 5. Cloning this repository
 
 ### Run the Publisher
-7. On a different terminal, at the script level “roscd scripts” Run chmod +x *.py
-8. In cd catkin_ws, we will source the devel setup.bash file with the code -
-source/devel/setup.bash
-8. The projectPublisher.py can be run using the code - rosrun my_robot_tuturial
-projectPublisher.py
-9. Then launch the husky robot with gazebo using the code - roslaunch
-husky_gazebo husky_playpen.launch
+* On a different terminal, at the script level “roscd scripts” Run chmod +x *.py
+* In cd catkin_ws, we will source the devel setup.bash file with the code - source/devel/setup.bash
+* The projectPublisher.py can be run using the code - rosrun my_robot_tuturial projectPublisher.py
+* Then launch the husky robot with gazebo using the code - roslaunch husky_gazebo husky_playpen.launch
 
 ### Run the subscriber
+* Run roscore on a different terminal (if not running)
+* Run source ~/catkin_ws/devel/setup.bash (A good practice)
+* On a different terminal, at the script level “roscd scripts” Run chmod +x *.py
+* At the scripts level, run “rosrun my_robot_tutorial projectSubscriber.py”
+* On another terminal, at the scripts level, run - rostopic pub -r 10 /topic_1 std_msgs/Float32 “data:1.0”
+* On a different terminal, at the scripts level, run - rostopic pub -r 10 /topic_2 std_msgs/Float32 “data:2.0”
