@@ -1,3 +1,0 @@
-float32 turn_degrees
----
-sensor_msgs/Image image
