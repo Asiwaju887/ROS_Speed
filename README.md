@@ -13,13 +13,13 @@ The project contains a publisher and a subscriber class which two different spee
 ## Running the codes
 1. Run roscore on a new terminal
 2. Create a catkin workspace
-c. cd ~/catkin_ws/
-d. Run source ~/catkin_ws/devel/setup.bash (A good practice)
-e. Cloning this repository
-f. On a different terminal, at the script level “roscd scripts” Run chmod +x *.py
-g. In cd catkin_ws, we will source the devel setup.bash file with the code -
+3. cd ~/catkin_ws/
+4. Run source ~/catkin_ws/devel/setup.bash (A good practice)
+5. Cloning this repository
+6. On a different terminal, at the script level “roscd scripts” Run chmod +x *.py
+7. In cd catkin_ws, we will source the devel setup.bash file with the code -
 source/devel/setup.bash
-h. The projectPublisher.py can be run using the code - rosrun my_robot_tuturial
+8. The projectPublisher.py can be run using the code - rosrun my_robot_tuturial
 projectPublisher.py
-i. Then launch the husky robot with gazebo using the code - roslaunch
+9. Then launch the husky robot with gazebo using the code - roslaunch
 husky_gazebo husky_playpen.launch
