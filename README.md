@@ -11,8 +11,8 @@ The project contains a publisher and a subscriber class which two different spee
 * The project uses the gazebo simulation.
 
 ## Running the codes
-a. Run roscore on a new terminal
-b. Create a catkin workspace
+1. Run roscore on a new terminal
+2. Create a catkin workspace
 c. cd ~/catkin_ws/
 d. Run source ~/catkin_ws/devel/setup.bash (A good practice)
 e. Cloning this repository
