@@ -9,4 +9,3 @@ The project uses Ubuntu 20.04.
 The project make us of the ROS OS Noetic. To install, follow the link.
 The project uses catkin build system.
 The project uses the gazebo simulation.
-
