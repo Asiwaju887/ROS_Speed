@@ -16,10 +16,14 @@ The project contains a publisher and a subscriber class which two different spee
 3. cd ~/catkin_ws/
 4. Run source ~/catkin_ws/devel/setup.bash (A good practice)
 5. Cloning this repository
-6. On a different terminal, at the script level “roscd scripts” Run chmod +x *.py
-7. In cd catkin_ws, we will source the devel setup.bash file with the code -
+
+### Run the Publisher
+7. On a different terminal, at the script level “roscd scripts” Run chmod +x *.py
+8. In cd catkin_ws, we will source the devel setup.bash file with the code -
 source/devel/setup.bash
 8. The projectPublisher.py can be run using the code - rosrun my_robot_tuturial
 projectPublisher.py
 9. Then launch the husky robot with gazebo using the code - roslaunch
 husky_gazebo husky_playpen.launch
+
+### Run the subscriber
